@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-comment-clean",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "comment-clean",
+    "comments-clean",
+    "comment",
+    "comments",
+    "babel",
+    "webpack",
+    "rollup"
+  ],
+  "main": "src/main.js",
+  "scripts": {
+    "test": "babel ./test --out-file test.output.js"
+  },
+  "author": "Max.S.Feng",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6"
+  }
+}
