@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-comment-clean",
+  "name": "babel-plugin-comments-clean",
   "version": "1.0.0",
-  "description": "",
+  "description": "clean comments",
   "keywords": [
     "comment-clean",
     "comments-clean",
@@ -15,8 +15,12 @@
   "scripts": {
     "test": "babel ./test --out-file test.output.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfengx/babel-plugin-comments-clean.git"
+  },
   "author": "Max.S.Feng",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6"
